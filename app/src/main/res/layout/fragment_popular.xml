@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fragment_background"
+    tools:context=".fragments.PopularFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            style="@style/normal_container_style"
+            android:layout_marginTop="@dimen/medium_offset">
+
+            <LinearLayout
+                android:id="@+id/chatgpt"
+                android:background="#16A17F"
+                style="@style/container_title_section_layout">
+
+                <ImageView
+                    android:src="@drawable/logo_chatgpt"
+                    style="@style/container_image_style"
+                    android:contentDescription="@string/chat_gpt_img_desc" />
+
+                <TextView
+                    android:text="@string/chat_gpt"
+                    style="@style/container_title_style" />
+            </LinearLayout>
+
+            <TextView
+                android:text="@string/chat_gpt_desc"
+                android:justificationMode="inter_word"
+                style="@style/container_desc_style" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/normal_container_style">
+
+            <LinearLayout
+                android:id="@+id/bard"
+                android:background="#A0A9E3"
+                style="@style/container_title_section_layout">
+
+                <ImageView
+                    android:src="@drawable/logo_bard"
+                    style="@style/container_image_style"
+                    android:contentDescription="@string/bard_img_desc" />
+
+                <TextView
+                    android:text="@string/bard"
+                    style="@style/container_title_style"
+                    android:textColor="@color/white"/>
+            </LinearLayout>
+            <TextView
+                android:text="@string/bard_desc"
+                android:justificationMode="inter_word"
+                style="@style/container_desc_style"/>
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/normal_container_style">
+
+            <LinearLayout
+                android:id="@+id/bingai"
+                android:background="#F9F9F9"
+                style="@style/container_title_section_layout">
+
+                <ImageView
+                    android:src="@drawable/logo_bingai"
+                    style="@style/container_image_style"
+                    android:contentDescription="@string/bingai_img_desc" />
+
+                <TextView
+                    android:text="@string/bingai"
+                    style="@style/container_title_style"
+                    android:textColor="#4F77EF"/>
+            </LinearLayout>
+
+            <TextView
+                android:text="@string/bingai_desc"
+                android:justificationMode="inter_word"
+                style="@style/container_desc_style" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/normal_container_style">
+
+            <LinearLayout
+                android:id="@+id/jasper"
+                android:background="#FEFEFE"
+                style="@style/container_title_section_layout">
+
+                <ImageView
+                    android:src="@drawable/logo_jasper"
+                    style="@style/container_image_style"
+                    android:contentDescription="@string/jasper_img_desc" />
+
+                <TextView
+                    android:text="@string/jasper"
+                    style="@style/container_title_style"
+                    android:textColor="#F95CD6"/>
+            </LinearLayout>
+
+            <TextView
+                android:text="@string/jasper_desc"
+                android:justificationMode="inter_word"
+                style="@style/container_desc_style" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/normal_container_style">
+
+            <LinearLayout
+                android:id="@+id/dalle2"
+                android:background="#000000"
+                style="@style/container_title_section_layout">
+
+                <ImageView
+                    android:src="@drawable/logo_dalle2"
+                    style="@style/container_image_style"
+                    android:contentDescription="@string/dalle2_img_desc" />
+
+                <TextView
+                    android:text="@string/dalle2"
+                    style="@style/container_title_style"/>
+            </LinearLayout>
+
+            <TextView
+                android:text="@string/dalle2_desc"
+                android:justificationMode="inter_word"
+                style="@style/container_desc_style" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

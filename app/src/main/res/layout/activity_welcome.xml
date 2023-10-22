@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@color/accent_blue"
+    android:orientation="vertical"
+    tools:context=".WelcomeActivity">
+
+  <TextView
+      android:textColor="@color/black"
+      android:textSize="@dimen/medium_text_size"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/developed_by"
+      android:layout_centerHorizontal="true"
+      android:layout_above="@id/owl"/>
+  <ImageView android:id="@+id/owl"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:src="@drawable/developer_logo"
+      android:contentDescription="@string/image_of_an_owl"
+      android:layout_centerInParent="true"/>
+
+  <View
+      android:layout_width="220dp"
+      android:layout_height="50dp"
+      android:background="@color/black"
+      android:layout_centerHorizontal="true"
+      android:layout_below="@id/owl" />
+
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:textColor="@color/accent_yellow"
+      android:textSize="@dimen/large_text_size"
+      android:text="@string/developer_name"
+      android:layout_below="@id/owl"
+      android:layout_centerHorizontal="true"/>
+
+  </RelativeLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fragment_background"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".fragments.ResearchWorkFragment">
+
+    <TextView
+        style="@style/coming_soon_fragment_text_style"
+        android:text="@string/coming_soon"
+        android:textSize="@dimen/large_text_size"
+        android:textColor="@color/white"
+        android:background="@color/accent_blue" />
+
+    <TextView
+        style="@style/coming_soon_fragment_text_style"
+        android:text="@string/coming_soon_desc"
+        android:textSize="@dimen/medium_text_size" />
+
+</LinearLayout>

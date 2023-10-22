@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fragment_background"
+    tools:context=".fragments.CreativityFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            style="@style/normal_container_style"
+            android:layout_marginTop="@dimen/medium_offset">
+
+            <LinearLayout
+                android:id="@+id/looka"
+                android:background="#5440FE"
+                style="@style/container_title_section_layout">
+
+                <ImageView
+                    android:src="@drawable/logo_looka"
+                    style="@style/container_image_style"
+                    android:contentDescription="@string/looka_img_desc" />
+
+                <TextView
+                    android:text="@string/looka"
+                    style="@style/container_title_style"
+                    android:textColor="@color/white"/>
+            </LinearLayout>
+
+            <TextView
+                android:text="@string/looka_desc"
+                android:justificationMode="inter_word"
+                style="@style/container_desc_style" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/normal_container_style">
+
+            <LinearLayout
+                android:id="@+id/polarr"
+                android:background="@color/black"
+                style="@style/container_title_section_layout">
+
+                <ImageView
+                    android:src="@drawable/logo_polarr"
+                    style="@style/container_image_style"
+                    android:contentDescription="@string/polarr_img_desc" />
+
+                <TextView
+                    android:text="@string/polarr_ai"
+                    style="@style/container_title_style"
+                    android:textColor="@color/white"/>
+            </LinearLayout>
+            <TextView
+                android:text="@string/polarr_desc"
+                android:justificationMode="inter_word"
+                style="@style/container_desc_style"/>
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/normal_container_style">
+
+            <LinearLayout
+                android:id="@+id/lumen5"
+                android:background="#5945F8"
+                style="@style/container_title_section_layout">
+
+                <ImageView
+                    android:src="@drawable/logo_lumen5"
+                    style="@style/container_image_style"
+                    android:contentDescription="@string/lumen5_img_desc" />
+
+                <TextView
+                    android:text="@string/lumen5"
+                    style="@style/container_title_style"
+                    android:textColor="@color/white"/>
+            </LinearLayout>
+
+            <TextView
+                android:text="@string/lumen5_desc"
+                android:justificationMode="inter_word"
+                style="@style/container_desc_style" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/normal_container_style">
+
+            <LinearLayout
+                android:id="@+id/spiritme"
+                android:background="@color/white"
+                style="@style/container_title_section_layout">
+
+                <ImageView
+                    android:src="@drawable/logo_spiritme"
+                    style="@style/container_image_style"
+                    android:contentDescription="@string/spiritme_img_desc" />
+
+                <TextView
+                    android:text="@string/spiritme"
+                    style="@style/container_title_style"
+                    android:textColor="@color/black"/>
+            </LinearLayout>
+
+            <TextView
+                android:text="@string/spiritme_desc"
+                android:justificationMode="inter_word"
+                style="@style/container_desc_style" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/normal_container_style">
+
+            <LinearLayout
+                android:id="@+id/runway"
+                android:background="@color/black"
+                style="@style/container_title_section_layout">
+
+                <ImageView
+                    android:src="@drawable/logo_runway"
+                    style="@style/container_image_style"
+                    android:contentDescription="@string/runway_img_desc" />
+
+                <TextView
+                    android:text="@string/runway"
+                    style="@style/container_title_style"
+                    android:textColor="@color/bright_green"/>
+            </LinearLayout>
+
+            <TextView
+                android:text="@string/runway_desc"
+                android:justificationMode="inter_word"
+                style="@style/container_desc_style" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/normal_container_style">
+
+            <LinearLayout
+                android:id="@+id/invideo"
+                android:background="@color/white"
+                style="@style/container_title_section_layout">
+
+                <ImageView
+                    android:src="@drawable/logo_invideo"
+                    style="@style/container_image_style"
+                    android:contentDescription="@string/invideo_img_desc" />
+
+                <TextView
+                    android:text="@string/invideo"
+                    style="@style/container_title_style"
+                    android:textColor="#DC2D83"/>
+            </LinearLayout>
+
+            <TextView
+                android:text="@string/invideo_desc"
+                android:justificationMode="inter_word"
+                style="@style/container_desc_style" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/normal_container_style">
+
+            <LinearLayout
+                android:id="@+id/murf"
+                android:background="#3C4159"
+                style="@style/container_title_section_layout">
+
+                <ImageView
+                    android:src="@drawable/logo_murf"
+                    style="@style/container_image_style"
+                    android:contentDescription="@string/murf_img_desc" />
+
+                <TextView
+                    android:text="@string/murf_ai"
+                    style="@style/container_title_style"
+                    android:textColor="#F8D006"/>
+            </LinearLayout>
+
+            <TextView
+                android:text="@string/murf_desc"
+                android:justificationMode="inter_word"
+                style="@style/container_desc_style" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/normal_container_style">
+
+            <LinearLayout
+                android:id="@+id/speechify"
+                android:background="@color/white"
+                style="@style/container_title_section_layout">
+
+                <ImageView
+                    android:src="@drawable/logo_speechify"
+                    style="@style/container_image_style"
+                    android:contentDescription="@string/speechify_img_desc" />
+
+                <TextView
+                    android:text="@string/speechify"
+                    style="@style/container_title_style"
+                    android:textColor="#1C2FFE"/>
+            </LinearLayout>
+
+            <TextView
+                android:text="@string/speechify_desc"
+                android:justificationMode="inter_word"
+                style="@style/container_desc_style" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/normal_container_style">
+
+            <LinearLayout
+                android:id="@+id/krisp"
+                android:background="@color/white"
+                style="@style/container_title_section_layout">
+
+                <ImageView
+                    android:src="@drawable/logo_krisp"
+                    style="@style/container_image_style"
+                    android:contentDescription="@string/krisp_img_desc" />
+
+                <TextView
+                    android:text="@string/krisp"
+                    style="@style/container_title_style"
+                    android:textColor="@color/black"/>
+            </LinearLayout>
+
+            <TextView
+                android:text="@string/krisp_desc"
+                android:justificationMode="inter_word"
+                style="@style/container_desc_style" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

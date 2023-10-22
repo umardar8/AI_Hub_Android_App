@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_tab0"
+        android:title="@string/tab0"
+        android:icon="@drawable/tab0_icon"/>
+    <item
+        android:id="@+id/nav_tab2"
+        android:title="@string/tab2"
+        android:icon="@drawable/tab2_icon"/>
+    <item
+        android:id="@+id/nav_tab3"
+        android:title="@string/tab3"
+        android:icon="@drawable/tab3_icon"/>
+    <item
+        android:id="@+id/nav_tab4"
+        android:title="@string/tab4"
+        android:icon="@drawable/tab4_icon"/>
+    <item
+        android:id="@+id/nav_tab5"
+        android:title="@string/tab5"
+        android:icon="@drawable/tab5_icon"/>
+    <item
+        android:id="@+id/nav_tab6"
+        android:title="@string/tab6"
+        android:icon="@drawable/tab6_icon"/>
+    <item
+        android:id="@+id/nav_tab7"
+        android:title="@string/tab7"
+        android:icon="@drawable/tab7_icon"/>
+</menu>

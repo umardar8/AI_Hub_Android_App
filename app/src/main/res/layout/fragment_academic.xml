@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fragment_background"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".fragments.AcademicFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            style="@style/normal_container_style"
+            android:layout_marginTop="@dimen/medium_offset">
+
+            <LinearLayout
+                android:id="@+id/jenni"
+                android:background="@color/white"
+                style="@style/container_title_section_layout">
+
+                <ImageView
+                    android:src="@drawable/logo_jenni"
+                    style="@style/container_image_style"
+                    android:contentDescription="@string/jenni_img_desc" />
+
+                <TextView
+                    android:text="@string/jenni_ai"
+                    style="@style/container_title_style"
+                    android:textColor="#6426EC"/>
+            </LinearLayout>
+
+            <TextView
+                android:text="@string/jenni_desc"
+                android:justificationMode="inter_word"
+                style="@style/container_desc_style" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/normal_container_style">
+
+            <LinearLayout
+                android:id="@+id/paperpal"
+                android:background="@color/white"
+                style="@style/container_title_section_layout">
+
+                <ImageView
+                    android:src="@drawable/logo_paperpal"
+                    style="@style/container_image_style"
+                    android:contentDescription="@string/paperpal_img_desc" />
+
+                <TextView
+                    android:text="@string/paperpal"
+                    style="@style/container_title_style"
+                    android:textColor="#015FFD"/>
+            </LinearLayout>
+            <TextView
+                android:text="@string/paperpal_desc"
+                android:justificationMode="inter_word"
+                style="@style/container_desc_style"/>
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/normal_container_style">
+
+            <LinearLayout
+                android:id="@+id/caktus"
+                android:background="#FEFEFE"
+                style="@style/container_title_section_layout">
+
+                <ImageView
+                    android:src="@drawable/logo_caktus"
+                    style="@style/container_image_style"
+                    android:contentDescription="@string/caktus_img_desc" />
+
+                <TextView
+                    android:text="@string/caktus"
+                    style="@style/container_title_style"
+                    android:textColor="#6CD56E"/>
+            </LinearLayout>
+
+            <TextView
+                android:text="@string/caktus_desc"
+                android:justificationMode="inter_word"
+                style="@style/container_desc_style" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/normal_container_style">
+
+            <LinearLayout
+                android:id="@+id/scholarcy"
+                android:background="#843C94"
+                style="@style/container_title_section_layout">
+
+                <ImageView
+                    android:src="@drawable/logo_scholarcy"
+                    style="@style/container_image_style"
+                    android:contentDescription="@string/scholarcy_img_desc" />
+
+                <TextView
+                    android:text="@string/scholarcy"
+                    style="@style/container_title_style"
+                    android:textColor="@color/white"/>
+            </LinearLayout>
+
+            <TextView
+                android:text="@string/scholarcy_desc"
+                android:justificationMode="inter_word"
+                style="@style/container_desc_style" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/normal_container_style">
+
+            <LinearLayout
+                android:id="@+id/chatpdf"
+                android:background="#0E0558"
+                style="@style/container_title_section_layout">
+
+                <ImageView
+                    android:src="@drawable/logo_chatpdf"
+                    style="@style/container_image_style"
+                    android:contentDescription="@string/chatpdf_img_desc" />
+
+                <TextView
+                    android:text="@string/chatpdf"
+                    style="@style/container_title_style"/>
+            </LinearLayout>
+
+            <TextView
+                android:text="@string/chatpdf_desc"
+                android:justificationMode="inter_word"
+                style="@style/container_desc_style" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/normal_container_style">
+
+            <LinearLayout
+                android:id="@+id/sheetplus"
+                android:background="@color/dark_blue"
+                style="@style/container_title_section_layout">
+
+                <ImageView
+                    android:src="@drawable/logo_sheetplus"
+                    style="@style/container_image_style"
+                    android:contentDescription="@string/sheetplus_img_desc" />
+
+                <TextView
+                    android:text="@string/sheet_plus"
+                    style="@style/container_title_style"
+                    android:textColor="@color/white"/>
+            </LinearLayout>
+
+            <TextView
+                android:text="@string/sheetplus_desc"
+                android:justificationMode="inter_word"
+                style="@style/container_desc_style" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
